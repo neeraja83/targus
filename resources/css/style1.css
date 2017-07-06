@@ -1,0 +1,134 @@
+/*----------------------------*/
+/* BASIC SETUP */
+/*----------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color:#555;
+    font-family:'Lato','Arial',sans-serif;
+    font-weight:300;
+    font-size: 100px;
+    text-rendering: optimizeLegibility;
+    }
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/* Reusable Components*/
+.row{
+    max-width: 1140 px;
+    margin: 0px auto;
+    }
+
+/*Container*/
+
+.container{
+    margin-right: 15px;
+    border-left: 50px;
+    
+}
+
+/*button*/
+.btn-group{
+    float: right;
+}
+/* */
+.white-popup-block{
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #333;
+    padding: 5px;
+    font-size: 80%;
+}
+
+footer p {
+    color:#888;
+    text-align: center;
+    
+    margin-top: 70px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 170%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+.ion-social-twitter:hover{
+    color: #00aced;
+}
+.ion-social-googleplus:hover{
+    color: #dd4b39;
+}
+.ion-social-instagram:hover{
+    color: #517fa4;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:hover,
+.social-links li a:active {
+    color: #ddd;
+}
+
+
