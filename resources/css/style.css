@@ -44,7 +44,7 @@ html{
 	word-spacing: 3px;
 }
 	
-.section-testimonials ul li blockquote cite img,.book-coll li{
+.section-testimonials ul li blockquote cite img,.book-coll li,.container-fluid{
 	vertical-align: middle;
 }
 
@@ -138,26 +138,6 @@ margin-right:2%;
 }
 
 /* Book Collection */
-.book-coll{
-    float: right;
-    list-style:none;
- }
-
-.book-coll li{
-    display: inline-block;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    font-family:'Lato','Arial',sans-serif;
-    }
-
-.book-coll li blockquote cite{
-    display: inline-block; 
-    }
-
-.book-coll li blockquote cite a{
-    display: inline-block; 
-    }
-
 .book-thumb .row h6{
     margin-bottom: 50px;
     text-align: left;
@@ -171,18 +151,10 @@ margin-right:2%;
 }
 
 .modal-dialog {
-    width: 350px;
+    width: 800px;
+    height: 700px;
 }
 
-/* Magnific popups */
-.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 200px;
-  margin: 20px auto;
-}
 
 /*Buttons*/
 .btn-group{
@@ -279,6 +251,7 @@ margin-right:2%;
 
 .carousel-fade .carousel-inner .item {
     opacity: 0;
+
     transition-property: opacity;
 }
 .carousel-fade .carousel-inner .active {
