@@ -1,7 +1,6 @@
 /*----------------------------*/
 /* BASIC SETUP */
 /*----------------------------*/
-
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +22,37 @@ html{
     margin: 0px auto;
     }
 
-/* Header*/
+.hero-text-box h1,.white-popup,.section-testimonials,.section-testimonials h2,#myCarousel .carousel-inner,footer p{
+    text-align: center;
+}
 
+.book-coll li blockquote cite a,.hero-text-box h2{
+	text-align: justify;
+}
+
+.hero-text-box,.section-testimonials h2,.main-nav li a:link,.main-nav li a:visited{
+	text-transform: uppercase;
+}
+
+.hero-text-box h1,.hero-text-box h2,.main-nav li a:link,.main-nav li a:visited,.btn-full:link,.btn-full:visited,.btn-ghost:active,.btn-ghost:hover,.section-testimonials,.input-group-addon{
+	color:#fff;
+}
+
+.hero-text-box h1,.hero-text-box h2
+{
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+	
+.section-testimonials ul li blockquote cite img,.book-coll li{
+	vertical-align: middle;
+}
+
+.footer-nav,.social-links {
+    list-style: none;
+}
+
+/* Header*/
 header{
       background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.69)),url(img/hero.jpg);
       background-size: cover;
@@ -33,40 +61,29 @@ header{
       height: 190vh;
     }
 
-
 .hero-text-box{
-position: absolute;
-width: 1140px;
-height: 300px;
-text-transform: uppercase;
-top:50%;
-left: 50%;
-transform: translate(-50%,-50%);
+	position: absolute;
+	width: 1140px;
+	height: 300px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 /* Headings */
-
 .hero-text-box h1
 {
     margin-top: 0;
     margin-bottom: 20px;
-    text-align: center;
-    color:#fff;
     font-size: 240%;
     font-weight: 300;
-    letter-spacing: 1px;
-    word-spacing: 3px;
 }
 
 .hero-text-box h2{
-    color:#fff;
     text-transform: capitalize;
-    text-align: justify;
     font-size: 125%;
     font-weight: 10;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-}
+    }
 
 .logo{
     height: 110px;
@@ -93,9 +110,8 @@ transform: translate(-50%,-50%);
 .main-nav li a:link,
 .main-nav li a:visited{
     padding: 8px 0;
-    color:#fff;
-    text-decoration: none;
-    text-transform: uppercase;
+    
+    text-decoration: none; 
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
@@ -104,11 +120,11 @@ transform: translate(-50%,-50%);
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
-   
 }
+
 /* Books menu*/
 .backgd{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.69)),url(img/hero.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.69)),url(img/hero.jpg);
 border: none;
 display: inline-block;
 font-family: 'Ubuntu', sans-serif;
@@ -120,30 +136,27 @@ text-align: right;
 margin-top:4.8%;
 margin-right:2%;
 }
-/* Book Collection */
 
+/* Book Collection */
 .book-coll{
     float: right;
     list-style:none;
-    
-}
+ }
 
 .book-coll li{
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
     font-family:'Lato','Arial',sans-serif;
-    vertical-align: middle;
     }
 
 .book-coll li blockquote cite{
     display: inline-block; 
-}
+    }
 
 .book-coll li blockquote cite a{
     display: inline-block; 
-    text-align: justify;
-}
+    }
 
 .book-thumb .row h6{
     margin-bottom: 50px;
@@ -153,9 +166,7 @@ margin-right:2%;
 }
 
 /*Modals*/
-
 .input-group-addon {
-    color: #fff;
     background: #3276B1;
 }
 
@@ -171,12 +182,9 @@ margin-right:2%;
   width: auto;
   max-width: 200px;
   margin: 20px auto;
-  text-align: center;
 }
 
 /*Buttons*/
-
-
 .btn-group{
     margin-top: 8%;
     margin-bottom: 15%;
@@ -198,7 +206,7 @@ margin-right:2%;
 .btn-full:visited{
     background-color: #e67e22;
     border: 1px solid #e67e22;
-    color:#fff;
+    
     margin-right: 15px;
     }
 
@@ -221,23 +229,18 @@ margin-right:2%;
 .btn-ghost:active,
 .btn-ghost:hover{
     border: 1px solid #cf6d17;
-    color:#fff;
 }
 
 /*Testimonials*/
 .section-testimonials{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/lisbon-3.jpg);
     background-size: cover;
-    color: #fff;
     list-style:none;
-    text-align: center;
     background-attachment: fixed;
 }
 
 .section-testimonials h2{
-    text-transform: uppercase;
     font-family: Arial;
-    text-align: center;
     padding: 2%;
 }
 
@@ -270,11 +273,9 @@ margin-right:2%;
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
-    vertical-align: middle;
-}
+   }
 
-
-/* Bootstrap*/
+   /* Bootstrap*/
 
 .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -282,10 +283,6 @@ margin-right:2%;
 }
 .carousel-fade .carousel-inner .active {
     opacity: 1;
-}
-
-#myCarousel .carousel-inner{
-    text-align: center;
 }
 
 /* Changes the position of the indicators */
@@ -310,7 +307,6 @@ margin-right:2%;
 
 .container-fluid
 {
-    
     background-size: cover;
     background-attachment: fixed;
     border-left: 10px;
@@ -334,10 +330,6 @@ margin-right:2%;
   text-shadow: none;
   margin-top: 30px;
 }
-/* Previous button  */
-
-/* Next button  */
-
 /*Footer*/
 
 footer {
@@ -348,18 +340,14 @@ footer {
 
 footer p {
     color:#888;
-    text-align: center;
-    
     margin-top: 10px;
 }
 
 .footer-nav {
-    list-style: none;
     float: left;
 }
 
 .social-links {
-    list-style: none;
     float: right;
 }
 
