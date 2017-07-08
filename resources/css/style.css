@@ -16,6 +16,14 @@ html{
     text-rendering: optimizeLegibility;
     }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', Georgia, Times, serif;
+}
+
+p, div {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
 /* Reusable Components*/
 .row{
     max-width: 1140 px;
@@ -54,7 +62,7 @@ html{
 
 /* Header*/
 header{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.69)),url(img/hero.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.69)),url(img/13685.jpg);
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
@@ -151,8 +159,8 @@ margin-right:2%;
 }
 
 .modal-dialog {
-    width: 800px;
-    height: 700px;
+    width: 700px;
+    height: 600px;
 }
 
 
@@ -245,6 +253,7 @@ margin-right:2%;
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
+    
    }
 
    /* Bootstrap*/
@@ -258,11 +267,26 @@ margin-right:2%;
     opacity: 1;
 }
 
+.carousel-fade .carousel-inner .item blockquote h5{
+    font-family: 'Arvo', Georgia, Times, serif;
+}
+
+.carousel-fade .carousel-inner .item blockquote p{
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+.carousel-fade .carousel-inner .active blockquote h5{
+    font-family: 'Arvo', Georgia, Times, serif;
+}
+.carousel-fade .carousel-inner .active blockquote p{
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
 /* Changes the position of the indicators */
 #myCarousel .carousel-indicators 
 {
   right: 50%;
-  top: 250px;
+  top: 318px;
   bottom: 0px;
   margin-right: -19px;
 }
@@ -280,9 +304,11 @@ margin-right:2%;
 
 .container-fluid
 {
+    background-image: url(img/witewall_3.png);
     background-size: cover;
     background-attachment: fixed;
     border-left: 10px;
+    
 }
 
 .item blockquote {
@@ -293,6 +319,8 @@ margin-right:2%;
 .item blockquote img {
     margin-bottom: 10px;
 }
+
+
 
 /* Control buttons  */
 #myCarousel .carousel-control
