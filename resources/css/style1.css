@@ -20,7 +20,7 @@ html{
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-     background: url(img/brickwall.png) repeat 0 0;
+     background: url(img/pixel_weave.png) repeat 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,10 +70,14 @@ p, div {
   margin: 20px auto;
 }
 
+.list_fm a{
+  background-image: url(img/sandpaper.png);    
+}
+
 .jumbotron {
   margin: 5px 0;
   text-align: center;
-  background-color: url(img/2.jpg);
+  background-image: url(img/sandpaper.png);
 }
 .jumbotron h1 {
   font-size: 72px;
