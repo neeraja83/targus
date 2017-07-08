@@ -1,7 +1,7 @@
 /*----------------------------*/
 /* BASIC SETUP */
 /*----------------------------*/
-
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,17 @@ html{
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+     background: url(img/brickwall.png) repeat 0 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', Georgia, Times, serif;
+}
+
+p, div {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
 /* Reusable Components*/
 .row{
     max-width: 1140 px;
@@ -50,6 +60,7 @@ body {
     float: right;
 }
 /* */
+
 .white-popup-block{
   position: relative;
   background: #FFF;
@@ -57,6 +68,17 @@ body {
   width:auto;
   max-width: 500px;
   margin: 20px auto;
+}
+
+.jumbotron {
+  margin: 5px 0;
+  text-align: center;
+  background-color: url(img/2.jpg);
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
 }
 
 /*Footer*/
