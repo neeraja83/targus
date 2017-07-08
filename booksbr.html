@@ -22,7 +22,7 @@
               $('#myCarousel').carousel({pause: true,interval: 4000,});});
               $('[data-toggle="tooltip"]').tooltip(); 
               $("#myModal").modal("hide");
-			  $('[data-toggle=offcanvas]').click(function() {
+	      $('[data-toggle=offcanvas]').click(function() {
               $('.row-offcanvas').toggleClass('active');
                 });
     </script>
@@ -41,7 +41,8 @@
         <form class="navbar-form navbar-right">
             <div class="form-group">
             <input type="text" placeholder="Email" class="form-control">
-            </div>                                         <div class="form-group">
+            </div>                                         
+	    <div class="form-group">
             <input type="password" placeholder="Password" class="form-control">
             </div>    
             <button type="submit" class="btn btn-success">Sign in</button>
@@ -56,7 +57,7 @@
    <div class="row row-offcanvas row-offcanvas-left">
        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
                     <div class="list-group">
-                        
+                        <ul>
                             <h3>Browse by subject:</h3>
                             <li class="active"><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Arts">Arts and Entertainment</a></li>
                             <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Biography">Biography</a></li>
@@ -69,17 +70,18 @@
                             <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Home & Garden">Home and Garden</a></li>
                             <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Education">Education</a></li>
                             <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Fiction">Fiction & Poetry</a></li>
-                        
+                        </ul>
                     </div>
                     <!--/.well -->
         <hr class="nav-divider">
+    <div class="list_fm">
         <div class="list-group">
-        <a href="index1.html" class="list-group-item active" data-toggle="tooltip" data-placement="right" title="Home & Garden"><img src="resources/img/garden1.jpg" class="img-fluid" width="180px" height="180px"><br><br>Home and Garden</a>
-        <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Fiction & Poetry"><img src="resources/img/fict1.jpg" class="img-fluid" width="180px" height="180px"><br><br>Fiction and Poetry</a>
-        <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Biography"><img src="resources/img/biography.jpg" class="img-fluid" width="180px" height="180px"><br><br>Biography</a>
-        <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Children's"><img src="resources/img/child2.jpg" class="img-fluid" width="180px" height="180px"><br><br>Children's</a>
+        <a href="index1.html" class="list-group-item active" data-toggle="tooltip" data-placement="right" title="Home & Garden"><img src="resources/img/garden1.jpg" class="img-fluid" style="border: #000 1px solid;MAX-HEIGHT: 160px;MAX-WIDTH: 122px;-MS-INTERPOLATION-MODE: bicubic;"><br><br>Home and Garden</a>
+        <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Fiction & Poetry"><img src="resources/img/fict1.jpg" class="img-fluid" style="border: #000 1px solid;MAX-WIDTH: 152px;-MS-INTERPOLATION-MODE: bicubic;"><br><br>Fiction and Poetry</a>
+        <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Biography"><img src="resources/img/biography.jpg" class="img-fluid" style="border: #000 1px solid;MAX-HEIGHT: 160px;MAX-WIDTH: 122px;-MS-INTERPOLATION-MODE: bicubic;"><br><br>Biography</a>
+        <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Children's"><img src="resources/img/child2.jpg" class="img-fluid" style="border: #000 1px solid;-MS-INTERPOLATION-MODE: bicubic;"><br><br>Children's</a>
         </div>
-        
+    </div>  
            <hr class="nav-divider">
     
      </div>
@@ -195,25 +197,8 @@
             <!--modal-dialog-->
           </div>
             
-           <div class="modal fade" id="Modal1" role="dialog">
-            <div class="modal-dialog">
-
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-body">
-                 <h4 class="modal-title">Turtles All the Way Down Signed Edition</h4>
-                    <h6 class="modal-title">by John Green</h6>
-                  <p>The wait is over! John Green, the #1 bestselling author of The Fault in Our Stars, is back. It all begins with a fugitive billionaire and the promise of a cash reward.Turtles All the Way Down is about lifelong friendship, the intimacy of an unexpected reunion, Star Wars fan fiction, and tuatara. But at its heart is Aza Holmes, a young woman navigating daily existence within the ever-tightening spiral of her own thoughts.In his long-awaited return, John Green shares Aza’s story with shattering, unflinching clarity.</p>
-                   <a href="#" data-dismiss="modal">Dismiss</a>
-                </div>
-              </div>
-
-            </div>
-            <!--modal-dialog-->
-          </div>
-            
-            
-            <div class="modal fade" id="Modal1" role="dialog">
+                      
+          <div class="modal fade" id="Modal1" role="dialog">
             <div class="modal-dialog">
 
               <!-- Modal content-->
