@@ -220,7 +220,7 @@ margin-right:2%;
 }
 
 .section-testimonials h2{
-    font-family: Arial;
+    font-family: 'Arvo', Georgia, Times, serif;
     padding: 2%;
 }
 
@@ -243,6 +243,7 @@ margin-right:2%;
     display: inline-block;
     margin-right: 20px;
 }
+
 .section-testimonials ul li blockquote cite {
     font-size: 90%;
     margin-top: 25px;
@@ -253,8 +254,7 @@ margin-right:2%;
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
-    
-   }
+}
 
    /* Bootstrap*/
 
@@ -267,11 +267,11 @@ margin-right:2%;
     opacity: 1;
 }
 
-.carousel-fade .carousel-inner .item blockquote h5{
+.carousel-fade .carousel-inner .item blockquote h5,.section-testimonials ul li h5{
     font-family: 'Arvo', Georgia, Times, serif;
 }
 
-.carousel-fade .carousel-inner .item blockquote p{
+.carousel-fade .carousel-inner .item blockquote p,.section-testimonials ul li p{
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
