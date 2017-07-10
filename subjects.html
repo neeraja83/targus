@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i" rel="stylesheet" type="text/css">
+       
+    <script>
+        
+            $(document).ready(function() {
+              //Set the carousel options
+              $('#myCarousel').carousel({pause: true,interval: 4000,});});
+              $('[data-toggle="tooltip"]').tooltip(); 
+              $("#myModal").modal("hide");
+			  $('[data-toggle=offcanvas]').click(function() {
+              $('.row-offcanvas').toggleClass('active');
+                });
+    </script>
+    <title>Book Phobia</title>
+</head>
+
+<body>
+ 
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header pull-left">
+          <a class="navbar-brand" href="index1.html"><h4><span class="glyphicon glyphicon-asterisk" style="color:#5cb85c"></span> Targus</h4></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+            <div class="form-group">
+            <input type="text" placeholder="Email" class="form-control">
+            </div>                                         <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+            </div>    
+            <button type="submit" class="btn btn-success">Sign in</button>
+        </form>
+       </div>
+        <!--/.navbar-collapse -->
+
+       </div>
+</div>
+     
+<div class="container-fluid">    
+   <div class="row row-offcanvas row-offcanvas-left">
+     <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+        <div class="list-group">
+                        <ul>
+                            <h3>Browse by subject:</h3>
+                            <li class="active"><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Arts">Arts and Entertainment</a></li>
+                            <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Biography">Biography</a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Business">Business</a></li>
+                            
+                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Calendars">Calendars, Notebooks, and Gifts</a></li>
+                            <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Children's">Childrens</a></li>
+                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Computers">Computers and Internet</a></li>
+                           
+                            <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Home & Garden">Home and Garden</a></li>
+                            <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Education">Education</a></li>
+                            <li><a href="index1.html" data-toggle="tooltip" data-placement="right" title="Fiction">Fiction & Poetry</a></li>
+                        </ul>
+                    </div>
+                    <!--/.well -->
+        <div class="list_fm">
+     <div class="list-group">
+        <ul class="main-nav">
+            <li>
+                <a href="index1.html" class="list-group-item active" data-toggle="tooltip" data-placement="right" title="Home & Garden">
+                <img src="resources/img/garden3.jpg" class="img-fluid" style="border: #000 1px solid;MAX-HEIGHT: 160px;MAX-WIDTH: 122px;-MS-INTERPOLATION-MODE: bicubic;">&nbsp;&nbsp;Home and Garden</a>
+           </li>
+           <li>
+               <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Fiction & Poetry">
+               <img src="resources/img/fict5.jpg" class="img-fluid" style="border: #000 1px solid;MAX-HEIGHT: 185px;MAX-WIDTH: 122px;-MS-INTERPOLATION-MODE: bicubic;">&nbsp;&nbsp;Fiction and Poetry</a>
+           </li>
+           <li>
+               <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Biography">
+               <img src="resources/img/bio1.png" class="img-fluid" style="border: #000 1px solid;MAX-HEIGHT: 172px;MAX-WIDTH: 122px;-MS-INTERPOLATION-MODE: bicubic;">&nbsp;&nbsp;Biography</a>
+           </li>
+           <li>
+               <a href="index1.html" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Children's">
+               <img src="resources/img/child3.jpg" class="img-fluid" style="border: #000 1px solid;MAX-HEIGHT: 122px;MAX-WIDTH: 122px;-MS-INTERPOLATION-MODE: bicubic;">&nbsp;&nbsp;Children's</a>
+           </li>
+        </ul>
+        </div>
+    </div>  
+     </div>
+        <!--/span-->
+
+    <div class="disp" style="display: azure">
+      <div class="col-sm-9"><br>
+              <h3>Arts and entertainment</h3>
+              <div class="row home-page-browse-grid" style="display:block;">
+                  <div class="browse-list col-sm-2">
+                  <a href="#">
+                  <img src="resources/img/9780143109259.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px; MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal1"><Strong>Modern Romance</Strong><br> Aziz Ansari and Eric Klinenberg</a>
+                </div>
+                <!--/span-->
+                  <div class="browse-list col-sm-2">
+                <a href="#">
+                <img src="resources/img/9780307886279.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal2"><strong>Is Everyone Hanging Out Without me?</strong><br>Mindy Kaling</a>
+                </div>
+                <!--/span-->
+                <div class="browse-list col-sm-2">
+                    
+                    <a href="#">
+                <img src="resources/img/9780316154727.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px; MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal3"><strong>Theft by Finding: Diaries 1977-2002</strong><br>David Sedaris</a>
+                </div>
+                <!--/span-->
+                  <div class="browse-list col-sm-2">
+                   <a href="#">
+                   <img src="resources/img/9781101912195.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal4"><strong>We Are Never Meeting in Real life</strong><br> Samantha Irby</a>
+                </div>
+                <!--/span-->
+                 <div class="browse-list">
+                     <a href="#">
+                     <img src="resources/img/9781250118035.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal5">
+                         <div>
+                         <strong>The Lonely City: Adventures in the Art of Being Alone?</strong><br>Olivia Laing
+                         </div>
+                    </a>
+                  </div>
+                <!--/span-->
+             </div><br><br>
+              
+              <h3>Biography</h3>
+              <div class="row home-page-browse-grid" style="display:block;">
+                <div class="browse-list">
+                  <a href="#">
+                  <img src="resources/img/9781451648539.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px; MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal1"><Strong>Steve Jobs</Strong><br> Walter Isaacson</a>
+                </div>
+                <!--/span-->
+                <div class="browse-list col-sm-2">
+                <a href="#">
+                <img src="resources/img/9780062218292.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal2"><strong>Astoria John Jacob Astors Great Expedition A Story of Wealth Ambition & Survival</strong><br>Peter Stark</a>
+                </div>
+                <!--/span-->
+                <div class="browse-list col-sm-2">
+                    
+                    <a href="#">
+                <img src="resources/img/9781101875100.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px; MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal3"><strong>M Train</strong><br>Patti Smith</a>
+                </div>
+                <!--/span-->
+                <div class="browse-list col-sm-2">
+                   <a href="#">
+                   <img src="resources/img/9780385349949.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal4"><strong>Lean in: Women, Work, and the Will to Lead</strong><br>Sandberg, Sheryl</a>
+                </div>
+                <!--/span-->
+                <div class="browse-list col-sm-2">
+                     <a href="#">
+                     <img src="resources/img/9781476793856.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal5">
+                         <div>
+                         <strong>A Life in Parts</strong><br>Bryan Cranston
+                         </div>
+                    </a>
+                  </div>
+                <!--/span-->
+                
+             </div>
+            <!--/row-->
+            <br><br>
+      
+            <h3>Children's</h3>
+            <div class="row home-page-browse-grid" style="display:block;">
+                  <div class="browse-list">
+                  <a href="#">
+                  <img src="resources/img/9780062024701.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px; MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal1"><Strong>Wildwood</Strong><br> Colin Meloy</a>
+                </div>
+                <!--/span-->
+                  <div class="browse-list col-sm-2">
+                <a href="#">
+                <img src="resources/img/9780143125471.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal2"><strong>The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics</strong><br>Daniel James Brown</a>
+                </div>
+                <!--/span-->
+                <div class="browse-list col-sm-2">
+                    
+                    <a href="#">
+                <img src="resources/img/9780545540629.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px; MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal3"><strong>Ghosts</strong><br>Raina Telgemeier</a>
+                </div>
+                <!--/span-->
+                  <div class="browse-list col-sm-2">
+                   <a href="#">
+                   <img src="resources/img/9780316334754.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal4"><strong>The Girl With All the Gifts</strong><br>M.R. Carey</a>
+                </div>
+                <!--/span-->
+                 <div class="browse-list">
+                     <a href="#">
+                     <img src="resources/img/9781570616792.jpg" class="img-responsive" style="border: 1px solid #ddd; padding: 4px;MAX-HEIGHT:160px;MAX-WIDTH: 122px; -MS-INTERPOLATION-MODE: bicubic;" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal5">
+                         <div>
+                         <strong>Larry Gets Lost in Portland</strong><br>John Skewes
+                         </div>
+                    </a>
+                  </div>
+                <!--/span-->
+             </div>
+    
+            
+
+            
+     </div>
+    </div>
+        <!--/col div-->
+    </div>
+    <!--/row-->
+   </div>
+ 
+<!-- Add Footer here-->
+
+    <footer>
+    <div class="row">
+        <div class="col span-1-of-2">
+            <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+            </ul>
+        </div>
+		
+        <div class="col span-1-of-2">
+            <ul class="social-links">
+                    <li><a href="http://www.facebook.com" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" data-toggle="tooltip" data-placement="right" title="Twitter"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="GooglePlus"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/" data-toggle="tooltip" data-placement="right" title="Instagram"><i class="ion-social-instagram"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="row">
+          <p>
+               Copyright &copy; 2017 by Targus. All rights reserved.
+          </p>
+        </div>
+	</div>	
+    </footer>
+</body>
+</html>
+    
