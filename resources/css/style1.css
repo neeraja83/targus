@@ -23,11 +23,11 @@ body {
      background: url(img/pixel_weave.png) repeat 0 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,.jumbotron h3,.jumbotron h2,.jumbotron h5  {
   font-family: 'Arvo', Georgia, Times, serif;
 }
 
-p, div {
+p, div,.jumbotron p{
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -42,6 +42,10 @@ p, div {
     padding-bottom: 20px;
 }
 	
+.footer p,.jumbotron{
+ text-align: center;   
+}
+
 .social-links,.footer-nav {
     list-style: none;
 }
@@ -72,7 +76,6 @@ p, div {
 
 .list_fm a{
   background-image: url(img/vertical_cloth.png);
-    
 }
 
 .main-nav{
@@ -81,7 +84,6 @@ p, div {
 .main-nav li{
     list-style:none;
     display: inline-block;
-    
     width: 300px;
 }
 
@@ -92,6 +94,8 @@ p, div {
 .main-nav li img{
     margin-left: 5px;
 }
+
+
 .main-nav li a:link,
 .main-nav li a:visited{
     padding: 8px 0;
@@ -109,14 +113,20 @@ p, div {
 }
 
 .jumbotron {
-  margin: 5px 0;
-  text-align: center;
+  margin-top: -9px;
   background-image: linear-gradient(rgba(16, 82, 159, 0.81),rgba(85, 85, 85, 0.55)),url(img/tileable_wood_texture.png);
 }
-.jumbotron h1 {
-  font-size: 72px;
-  line-height: 1;
+.jumbotron h3 {
+  font-size: 32px;
+  line-height: 30px;
   font-weight: bold;
+}
+.jumbotron p{
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 /*Footer*/
@@ -127,7 +137,6 @@ footer {
 }
 
 footer p {
-    text-align: center;
     margin-top: 70px;
 }
 
