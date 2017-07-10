@@ -184,7 +184,55 @@ footer p {
     color: #517fa4;
 }
 
+/* */
+.disp{
+    background-color: azure;
+}
+.browse-list {
+    page-break-inside:avoid;
+    break-inside: avoid-column;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 15%;
+    padding: 10px;
+}
+.browse-list a,.browse-list a:visited {
+    color: #428bca;
+    width: 300px;
+}
+.browse-list a {
+    text-decoration: none;
+}
 
+
+
+.home-page-browse-grid{
+    column-gap: 15px;
+    
+}
+
+@media (min-width: 992px)
+.home-page-browse-grid {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    
+}
+
+@media (min-width: 768px)
+.home-page-browse-grid {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+@media (min-width: 0)
+.home-page-browse-grid {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
 
 
 
