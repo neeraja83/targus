@@ -18,7 +18,7 @@ html{
     }
 
 body {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 20px;
      background: url(img/pixel_weave.png) repeat 0 0;
 }
@@ -36,6 +36,11 @@ p, div {
     max-width: 1140 px;
     margin: 0px auto;
     }
+
+.navbar{
+    background: url(img/ep_naturalblack.png) repeat 0 0;
+    padding-bottom: 20px;
+}
 	
 .social-links,.footer-nav {
     list-style: none;
@@ -51,8 +56,8 @@ p, div {
 
 /*Container*/
 .container{
-    margin-right: 15px;
-    border-left: 50px;
+        border-left: 25px;
+    vertical-align: center;
   }
 
 /*button*/
@@ -61,23 +66,52 @@ p, div {
 }
 /* */
 
-.white-popup-block{
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width:auto;
-  max-width: 500px;
-  margin: 20px auto;
+.list-group ul li {
+    margin-left: 15px;
 }
 
 .list_fm a{
-  background-image: url(img/sandpaper.png);    
+  background-image: url(img/vertical_cloth.png);
+    
+}
+
+.main-nav{
+    margin-left: -20px;
+}
+.main-nav li{
+    list-style:none;
+    display: inline-block;
+    
+    width: 300px;
+}
+
+.main-nav li a{
+    display:block;
+    vertical-align:middle;
+}
+.main-nav li img{
+    margin-left: 5px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none; 
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+    color:#e67e22;
 }
 
 .jumbotron {
   margin: 5px 0;
   text-align: center;
-  background-image: url(img/sandpaper.png);
+  background-image: linear-gradient(rgba(16, 82, 159, 0.81),rgba(85, 85, 85, 0.55)),url(img/tileable_wood_texture.png);
 }
 .jumbotron h1 {
   font-size: 72px;
