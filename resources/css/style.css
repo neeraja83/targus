@@ -38,7 +38,7 @@ p, div {
 	text-align: justify;
 }
 
-.hero-text-box,.section-testimonials h2,.main-nav li a:link,.main-nav li a:visited{
+.hero-text-box h1,.section-testimonials h2,.main-nav li a:link,.main-nav li a:visited{
 	text-transform: uppercase;
 }
 
@@ -46,10 +46,10 @@ p, div {
 	color:#fff;
 }
 
-.hero-text-box h1,.hero-text-box h2
+.hero-text-box h1,.hero-text-box h2,.section-testimonials 
 {
 	letter-spacing: 1px;
-	word-spacing: 3px;
+	word-spacing: 2.5px;
 }
 	
 .section-testimonials ul li blockquote cite img,.book-coll li,.container-fluid{
@@ -85,10 +85,11 @@ header{
     margin-bottom: 20px;
     font-size: 240%;
     font-weight: 300;
+    color:#e67e22;
 }
 
 .hero-text-box h2{
-    text-transform: capitalize;
+    
     font-size: 125%;
     font-weight: 10;
     }
@@ -130,29 +131,33 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
-/* Books menu*/
-.backgd{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.69)),url(img/hero.jpg);
-border: none;
-display: inline-block;
-font-family: 'Ubuntu', sans-serif;
-font-weight:400;
-font-size: 1.3em;
-font-style: italic;
-color:#F5F5F5;
-text-align: right;
-margin-top:4.8%;
-margin-right:2%;
+/* Book Collection */
+.book-sb{
+    margin-left: 410px;
+ }
+
+.bcenter{
+    margin-left: 135px;
+    
 }
 
-/* Book Collection */
-.book-thumb .row h6{
-    margin-bottom: 50px;
-    text-align: left;
-    text-transform: capitalize;
+.book-thumb a{
+    color:#e67e22;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+.book-thumb a:link,
+.book-thumb a:visited{
+    color: #fff;
+    font-size: 100%;
+    transition: border-bottom 0.2s;
+}
+
+.book-thumb a:hover,
+.book-thumb a:active{
     color:#e67e22;
 }
-
 /*Modals*/
 .input-group-addon {
     background: #3276B1;
@@ -164,6 +169,19 @@ margin-right:2%;
 }
 
 
+
+/*Style1 function for orange a change*/
+.browse-list a:hover,
+.browse-list a:active{
+    color:#e67e22;
+    text-decoration: underline;
+    transition: color 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.browse-list a{
+    text-decoration: none;
+}
 /*Buttons*/
 .btn-group{
     margin-top: 8%;
@@ -222,6 +240,7 @@ margin-right:2%;
 .section-testimonials h2{
     font-family: 'Arvo', Georgia, Times, serif;
     padding: 2%;
+    color: #e67e22;
 }
 
 .section-testimonials blockquote{
@@ -255,6 +274,8 @@ margin-right:2%;
     border-radius: 50%;
     margin-right: 10px;
 }
+
+
 
    /* Bootstrap*/
 
