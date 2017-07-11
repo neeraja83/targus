@@ -95,20 +95,18 @@ p, div,.jumbotron p{
     margin-left: 5px;
 }
 
-
 .main-nav li a:link,
 .main-nav li a:visited{
     padding: 8px 0;
     color: #fff;
     text-decoration: none; 
-    font-size: 90%;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+    font-size: 100%;
+    transition: color 0.7s;
+    transition-timing-function: ease-in-out;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: 2px solid #e67e22;
     color:#e67e22;
 }
 
@@ -126,6 +124,7 @@ p, div,.jumbotron p{
     font-weight: lighter;
     text-align: left;
     font-size: 18px;
+
     line-height: 30px;
 }
 
@@ -186,7 +185,7 @@ footer p {
 
 /* */
 .disp{
-    background-color: azure;
+    background-color: white;
 }
 .browse-list {
     page-break-inside:avoid;
@@ -196,20 +195,27 @@ footer p {
     vertical-align: middle;
     width: 15%;
     padding: 10px;
-}
-.browse-list a,.browse-list a:visited {
+    color: #aab2d0;
+  }
+
+.browse-list a:link,.browse-list a:visited {
     color: #428bca;
-    width: 300px;
+    width: 400px;
 }
+.browse-list a:hover,
+.browse-list a:active{
+    color:#e67e22;
+    transition: color 0.3s;
+    transition-timing-function: ease-in;
+}
+
 .browse-list a {
     text-decoration: none;
+    
 }
 
-
-
 .home-page-browse-grid{
-    column-gap: 15px;
-    
+    column-gap: 5px;
 }
 
 @media (min-width: 992px)
